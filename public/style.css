@@ -181,3 +181,69 @@ body {
     0 8px 20px rgba(5,102,141,0.15);
 
 }
+
+.products-panel {
+
+    width:80%;
+
+    margin:30px auto;
+
+    padding:15px 25px;
+
+    border-radius:20px;
+
+    background:
+
+    linear-gradient(
+        120deg,
+        #427AA1,
+        #679436
+    );
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:
+
+    0 8px 20px rgba(5,102,141,0.2);
+
+}
+
+.products-title {
+
+    color:white;
+
+    font-family:'Montserrat', sans-serif;
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.add-button {
+
+    width:55px;
+
+    height:55px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    border-radius:50%;
+
+    background:#A5BE00;
+
+    color:white;
+
+    font-size:38px;
+
+    font-weight:bold;
+
+}
