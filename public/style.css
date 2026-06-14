@@ -8,57 +8,35 @@
 
 }
 
-
-
 body {
 
-
     min-height:100vh;
-
 
     display:flex;
 
     flex-direction:column;
 
-
-
     background:#EBF2FA;
-
 
     font-family:'Inter', sans-serif;
 
-
     color:#05668D;
 
-
 }
-
-
-
-
 
 /* Главная плашка */
 
 .hero {
 
-
     width:100%;
-
 
     height:220px;
 
-
-
     display:flex;
-
 
     justify-content:center;
 
-
     align-items:center;
-
-
-
 
     background:
 
@@ -68,37 +46,23 @@ body {
         #427AA1
     );
 
-
-
     box-shadow:
 
     0 8px 25px rgba(5,102,141,0.25);
 
-
 }
-
-
-
-
 
 .hero h1 {
 
-
     font-family:'Montserrat', sans-serif;
-
 
     font-size:56px;
 
-
     font-weight:700;
-
-
 
     color:white;
 
-
     letter-spacing:3px;
-
 
 }
 
@@ -106,22 +70,13 @@ body {
 
 .menu {
 
-
     width:80%;
-
 
     margin:35px auto;
 
-
-
     padding:25px;
 
-
-
     border-radius:20px;
-
-
-
 
     background:
 
@@ -131,55 +86,31 @@ body {
         #679436
     );
 
-
-
-
     display:flex;
-
 
     justify-content:center;
 
-
     gap:90px;
-
-
-
 
     box-shadow:
 
     0 8px 20px rgba(5,102,141,0.2);
 
-
 }
-
-
-
-
 
 .menu a {
 
-
     font-family:'Inter', sans-serif;
-
 
     text-decoration:none;
 
-
-
     color:white;
-
-
 
     font-size:22px;
 
-
-
     font-weight:700;
 
-
-
     transition:0.3s;
-
 
 }
 
@@ -187,82 +118,66 @@ body {
 
 .author {
 
-
-
     margin-top:auto;
-
-
 
     width:100%;
 
-
-
     background:#05668D;
-
-
 
     color:white;
 
-
-
-
     text-align:center;
-
-
 
     padding:25px;
 
-
-
     font-family:'Montserrat', sans-serif;
-
 
     font-size:22px;
 
-
-
     letter-spacing:3px;
-
 
 }
 
 .product-card h2 {
 
-
     font-family:'Montserrat', sans-serif;
-
 
     color:#05668D;
 
-
     margin-bottom:20px;
 
-
 }
-
-
-
 
 .product-card p {
 
-
     font-size:18px;
-
 
     margin:12px 0;
 
-
     color:#427AA1;
-
 
 }
 
-
-
 .product-card b {
-
 
     color:#679436;
 
+}
+
+.compare-content {
+
+    width:80%;
+
+    margin:30px auto;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:
+
+    0 8px 20px rgba(5,102,141,0.15);
 
 }
