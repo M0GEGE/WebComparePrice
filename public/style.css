@@ -225,3 +225,44 @@ body {
 
 
 }
+
+.product-card h2 {
+
+
+    font-family:'Montserrat', sans-serif;
+
+
+    color:#05668D;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+.product-card p {
+
+
+    font-size:18px;
+
+
+    margin:12px 0;
+
+
+    color:#427AA1;
+
+
+}
+
+
+
+.product-card b {
+
+
+    color:#679436;
+
+
+}
