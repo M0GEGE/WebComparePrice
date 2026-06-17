@@ -44,7 +44,7 @@
 
 </nav>
 
-<div class="products-panel">
+<div class="products-panel" id ="openModal">
     
     <div class="products-title">
 
@@ -59,6 +59,44 @@
     </div>
 
 </div>
+
+<div class="modal" id="productModal">
+
+    <div class="modal-window">
+
+        <button class="close-modal" id="closeModal">
+
+            ×
+
+        </button>
+
+        <h2>
+            Добавить товар
+        </h2>
+
+        <input 
+            type="text"
+            placeholder="Наименование"
+            id="productName"
+        >
+
+        <input 
+            type="number"
+            placeholder="Цена"
+            id="productPrice"
+        >
+
+        <button class="add-product">
+
+            Добавить товар
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
 
 <footer class="author">
 
