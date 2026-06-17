@@ -1,63 +1,69 @@
-.compare-panel {
+.compare-container {
 
     width:80%;
 
     margin:30px auto;
 
-    padding:15px 25px;
-
-    border-radius:20px;
-
-    background:
-
-    linear-gradient(
-        120deg,
-        #427AA1,
-        #679436
-    );
-
     display:flex;
-
-    justify-content:space-between;
 
     align-items:center;
 
-}
-
-.compare-title {
-
-    font-family:'Montserrat',sans-serif;
-
-    font-size:28px;
-
-    font-weight:700;
-
-    color:white;
+    gap:20px;
 
 }
 
-.add-button {
+.site-search {
 
-    width:55px;
+    flex:1;
 
     height:55px;
 
-    border-radius:50%;
+    border:none;
+
+    border-radius:15px;
+
+    padding:0 20px;
+
+    font-size:18px;
+
+    outline:none;
+
+    background:white;
+
+}
+
+.site-search::placeholder {
+
+    color:#777;
+
+}
+
+.comparison-button {
+
+    height:55px;
+
+    min-width:160px;
+
+    padding:0 30px;
+
+    border:none;
+
+    border-radius:15px;
 
     background:#A5BE00;
 
     color:white;
 
-    font-size:34px;
+    font-size:18px;
 
     font-weight:700;
 
-    display:flex;
+    cursor:pointer;
 
-    justify-content:center;
+}
 
-    align-items:center;
+.comparison-button:hover {
 
-    line-height:1;
+    color:white;
 
 }
