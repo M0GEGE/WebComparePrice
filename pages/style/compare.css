@@ -1,0 +1,45 @@
+
+/*Кнопка Сравнение*/
+.comparison-button {
+    display: block;
+    width: 80%;
+    margin: 30px auto;
+    height: 55px;
+    padding: 0 30px;
+    border: none;
+    border-radius: 20px;
+    background: #2E9CCA;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(5,102,141,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/*Кнопка Сравнение при наведении*/
+.comparison-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 25px rgba(5,102,141,0.3)
+}
+
+/*Сетка карточек товаров*/
+#compareProductsContainer {
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: none;
+    padding: 0;
+}
+
+/*Сообщения об ошибках/отсуствии товаров*/
+.no-products,
+.error-message {
+    text-align: center;
+    padding: 40px;
+    color: #94a3b8;
+    font-size: 16px;
+}

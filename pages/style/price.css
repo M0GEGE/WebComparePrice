@@ -1,0 +1,195 @@
+
+/*Панель Товары*/
+.products-panel {
+    width: 80%;
+    margin: 30px auto;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background: #2E9CCA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 8px 20px rgba(5,102,141,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/*Шрифт Товары*/
+.products-title {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/*Шрифт +*/
+.add-button {
+    width: 55px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*Панель Товары при наведении*/
+.products-panel:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 25px rgba(5,102,141,0.3)
+}
+
+/*Сетка карточек*/
+#productsContainer {
+    width: 80%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+/*Модальные окна*/
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5,102,141,0.35);
+    justify-content: center;
+    align-items: center;
+}
+
+/*Окно*/
+.modal-window {
+    max-width: 420px;
+    width: 90%;
+    padding: 35px;
+    background: white;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+/*Заголовок окна*/
+.modal-window h2 {
+    text-align: center;
+    color: #05668D;
+    margin-bottom: 25px;
+}
+
+/*Ввод*/
+.modal-window input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border: 2px solid #EBF2FA;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/*Крестик закрытия*/
+.close-modal {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    border: none;
+    background: none;
+    font-size: 32px;
+    color: #05668D;
+    cursor: pointer;
+}
+
+/*Кнопка Добавить товар*/
+.add-product {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background: #679436;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/*Карточки товаров*/
+.product-card {
+    min-height: 140px;
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+/*Карточка при наведении*/
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/*Наименование*/
+.product-card h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/*Цена*/
+.product-price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/*Кнопки в карточках Измененить/Удалить*/
+.product-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+/*Общий вид*/
+.edit-product,
+.delete-product {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+    flex: 1;
+    max-width: 120px;
+}
+
+/*Цвет изменить*/
+.edit-product {
+    background: #3b82f6;
+}
+
+/*Цвет изменить при наведении*/
+.edit-product:hover {
+    background: #2563eb;
+}
+
+/*Цвет удалить*/
+.delete-product {
+    background: #ef4444;
+}
+
+/*Цвет удалить при наведении*/
+.delete-product:hover {
+    background: #dc2626;
+}
+
+/*Эффект нажатия*/
+.edit-product:active,
+.delete-product:active {
+    transform: scale(0.97);
+}
