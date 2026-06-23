@@ -1,71 +1,45 @@
 <!DOCTYPE html>
-
-<html lang="ru">
-
 <head>
+    <meta charset="UTF-8">
+    
+    <!--Заголовок страницы-->>
+    <title>Сравнивать цены | Compare All</title>
 
-<meta charset="UTF-8">
+    <!--Шрифты-->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Сравнивать цены | Compare All</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style/base.css">
-
-<link rel="stylesheet" href="style/compare.css">
-
+    <!--Стили-->
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/compare.css">
+    <link rel="stylesheet" href="style/price.css">
 </head>
-
 <body>
 
-<header class="hero">
+    <!--Шапка-->
+    <header class="hero">
+        <h1>Сравнивать цены</h1>
+    </header>
 
-<h1>
-    Сравнивать цены
-</h1>
+    <!--Меню-->
+    <nav class="menu">
+        <a href="main.html">Главная</a>
+        <a href="price.html">Прайс</a>
+        <a href="compare.html">Сравнивать цены</a>
+    </nav>
 
-</header>
+    <!--Кнопка Сравнение-->
+    <button class="comparison-button">Сравнение</button>
 
-<nav class="menu">
+    <!--Контейнер карточек-->
+    <div id="compareProductsContainer"></div>
 
-<a href="main.html">
-    Главная
-</a>
+    <!--Скрипты-->
+    <script src="script.js" defer></script>
 
-<a href="price.html">
-    Прайс
-</a>
-
-<a href="compare.html">
-    Сравнивать цены
-</a>
-
-</nav>
-
-<div class="compare-container">
-
-    <input 
-        class="site-search"
-        type="text"
-        placeholder="Поиск по сайту"
-    >
-
-    <button class="comparison-button">
-
-        Сравнение
-
-    </button>
-
-</div>
-
-<footer class="author">
-
-Dmitrieva K.N
-
-</footer>
+    <!--Футер(Подвал)-->
+    <footer class="author">
+        Dmitrieva K.N
+    </footer>
 
 </body>
-
 </html>
